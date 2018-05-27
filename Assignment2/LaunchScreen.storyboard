@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TTY-2I-UEB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Hnc-e9-fgD">
+            <objects>
+                <viewController id="TTY-2I-UEB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nqi-gF-cJm"/>
+                        <viewControllerLayoutGuide type="bottom" id="cxw-fq-dfF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CXH-pH-eDM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z9e-AB-B6E">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="666"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="CISCO" translatesAutoresizingMaskIntoConstraints="NO" id="UlO-0p-T4k">
+                                <rect key="frame" x="0.0" y="0.0" width="193" height="109"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MICROSOFT" translatesAutoresizingMaskIntoConstraints="NO" id="yyy-RG-RqT">
+                                <rect key="frame" x="169" y="548" width="206" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="118" id="gmW-kg-LUJ"/>
+                                    <constraint firstAttribute="width" constant="206" id="ugs-Yn-pe6"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="COMPTIA" translatesAutoresizingMaskIntoConstraints="NO" id="Iwo-sy-bko">
+                                <rect key="frame" x="0.0" y="548" width="170" height="119"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ORACLE" translatesAutoresizingMaskIntoConstraints="NO" id="0Jg-Mc-Gy7">
+                                <rect key="frame" x="193" y="0.0" width="182" height="109"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICON.png" translatesAutoresizingMaskIntoConstraints="NO" id="d6I-TW-xuV">
+                                <rect key="frame" x="55" y="189" width="265" height="289"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Iwo-sy-bko" firstAttribute="top" secondItem="d6I-TW-xuV" secondAttribute="bottom" constant="70" id="0GE-IT-h2R"/>
+                            <constraint firstItem="d6I-TW-xuV" firstAttribute="leading" secondItem="CXH-pH-eDM" secondAttribute="leadingMargin" constant="39" id="1FL-qZ-b0N"/>
+                            <constraint firstItem="UlO-0p-T4k" firstAttribute="leading" secondItem="CXH-pH-eDM" secondAttribute="leading" id="2Lg-ga-xjf"/>
+                            <constraint firstItem="yyy-RG-RqT" firstAttribute="top" secondItem="d6I-TW-xuV" secondAttribute="bottom" constant="70" id="BpG-0q-nmJ"/>
+                            <constraint firstItem="cxw-fq-dfF" firstAttribute="top" secondItem="yyy-RG-RqT" secondAttribute="bottom" constant="1" id="CXf-Pl-JlT"/>
+                            <constraint firstItem="0Jg-Mc-Gy7" firstAttribute="top" secondItem="CXH-pH-eDM" secondAttribute="top" id="Hqv-H3-5zM"/>
+                            <constraint firstItem="d6I-TW-xuV" firstAttribute="centerX" secondItem="CXH-pH-eDM" secondAttribute="centerX" id="LMH-iD-1Fq"/>
+                            <constraint firstItem="0Jg-Mc-Gy7" firstAttribute="leading" secondItem="UlO-0p-T4k" secondAttribute="trailing" id="NAD-bz-FVa"/>
+                            <constraint firstItem="yyy-RG-RqT" firstAttribute="leading" secondItem="CXH-pH-eDM" secondAttribute="leading" constant="169" id="S6i-bB-oDb"/>
+                            <constraint firstItem="yyy-RG-RqT" firstAttribute="bottom" secondItem="Z9e-AB-B6E" secondAttribute="bottom" id="S7A-Rb-gxO"/>
+                            <constraint firstItem="yyy-RG-RqT" firstAttribute="top" secondItem="Iwo-sy-bko" secondAttribute="top" id="Uxz-MI-elL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="d6I-TW-xuV" secondAttribute="trailing" constant="39" id="YCC-Gp-LYo"/>
+                            <constraint firstItem="yyy-RG-RqT" firstAttribute="centerY" secondItem="Iwo-sy-bko" secondAttribute="centerY" id="ZFf-Mx-EwL"/>
+                            <constraint firstItem="UlO-0p-T4k" firstAttribute="top" secondItem="CXH-pH-eDM" secondAttribute="top" id="d4D-ns-Sms"/>
+                            <constraint firstItem="yyy-RG-RqT" firstAttribute="trailing" secondItem="0Jg-Mc-Gy7" secondAttribute="trailing" id="dNI-ro-UIy"/>
+                            <constraint firstAttribute="trailing" secondItem="yyy-RG-RqT" secondAttribute="trailing" id="dhK-WD-ysR"/>
+                            <constraint firstAttribute="trailing" secondItem="0Jg-Mc-Gy7" secondAttribute="trailing" id="eYO-mx-I09"/>
+                            <constraint firstItem="d6I-TW-xuV" firstAttribute="top" secondItem="UlO-0p-T4k" secondAttribute="bottom" constant="80" id="gFc-6Q-EmM"/>
+                            <constraint firstItem="d6I-TW-xuV" firstAttribute="centerY" secondItem="CXH-pH-eDM" secondAttribute="centerY" id="hzF-vx-Egj"/>
+                            <constraint firstAttribute="trailing" secondItem="yyy-RG-RqT" secondAttribute="trailing" id="kSU-da-wlF"/>
+                            <constraint firstItem="0Jg-Mc-Gy7" firstAttribute="leading" secondItem="UlO-0p-T4k" secondAttribute="trailing" id="mhb-4F-D7c"/>
+                            <constraint firstItem="yyy-RG-RqT" firstAttribute="top" secondItem="d6I-TW-xuV" secondAttribute="bottom" constant="70" id="o2n-XC-AZc"/>
+                            <constraint firstItem="d6I-TW-xuV" firstAttribute="top" secondItem="0Jg-Mc-Gy7" secondAttribute="bottom" constant="80" id="oqG-8M-35F"/>
+                            <constraint firstItem="yyy-RG-RqT" firstAttribute="trailing" secondItem="Z9e-AB-B6E" secondAttribute="trailing" id="wkU-AC-nE2"/>
+                            <constraint firstItem="cxw-fq-dfF" firstAttribute="top" secondItem="yyy-RG-RqT" secondAttribute="bottom" constant="1" id="xhp-Zn-xw5"/>
+                            <constraint firstItem="d6I-TW-xuV" firstAttribute="top" secondItem="0Jg-Mc-Gy7" secondAttribute="bottom" constant="80" id="y2t-f6-xy3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sXB-bf-J0K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="55" y="372"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CISCO" width="170" height="170"/>
+        <image name="COMPTIA" width="170" height="170"/>
+        <image name="ICON.png" width="256" height="256"/>
+        <image name="MICROSOFT" width="170" height="170"/>
+        <image name="ORACLE" width="170" height="170"/>
+    </resources>
+</document>

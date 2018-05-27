@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1510" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MyCertificationsDB2" representedClassName="MyCertificationsDB2" syncable="YES">
+        <attribute name="certificationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="certificationName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCertified" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expiryDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vendorName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MyCertificationsDB2" positionX="-45" positionY="0" width="128" height="135"/>
+    </elements>
+</model>
